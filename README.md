@@ -1,4 +1,4 @@
-# BossShopPro
+# BossShopPro-Updated Catalyst Craft
 
 BossShopPro is one of the most player-friendly and multifunctional GUI plugins ever! Say goodbye to all the annoying command- or signshops!
 It can not only be used to create shops but for every kind of menu. Here are just a few examples:
