@@ -34,6 +34,10 @@
 
 	<repositories>
 		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+		<repository>
 			<id>bundabrg-repo</id>
 			<url>https://repo.worldguard.com.au/repository/maven-public</url>
 			<releases>
@@ -44,10 +48,6 @@
 			</snapshots>
 		</repository>
 		<!-- Jitpack -->
-		<repository>
-			<id>jitpack.io</id>
-			<url>https://jitpack.io</url>
-		</repository>
 		<repository>
 			<id>spigot-repo</id>
 			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
@@ -129,7 +129,7 @@
 		<dependency>
 			<groupId>com.github.Zrips</groupId>
 			<artifactId>Jobs</artifactId>
-			<version>4.9.1</version>
+			<version>4.17.2</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -169,7 +169,7 @@
 		<dependency>
 			<groupId>com.enjin</groupId>
 			<artifactId>EnjinMinecraftPlugin</artifactId>
-			<version>3.5.7</version>
+			<version>3.5.14</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -177,7 +177,7 @@
 		<dependency>
 			<groupId>me.BukkitPVP</groupId>
 			<artifactId>PointsAPI</artifactId>
-			<version>1.6.8</version>
+			<version>1.6.5</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -185,7 +185,7 @@
 		<dependency>
 			<groupId>com.vk2gpz.tokenenchant</groupId>
 			<artifactId>TokenEnchantAPI</artifactId>
-			<version>15.3.2</version>
+			<version>18.37.1</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -193,7 +193,7 @@
 		<dependency>
 			<groupId>me.justeli.coins.main</groupId>
 			<artifactId>Coins</artifactId>
-			<version>1.9.2</version>
+			<version>1.13</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -201,7 +201,7 @@
 		<dependency>
 			<groupId>com.yapzhenyie.GadgetsMenu</groupId>
 			<artifactId>GadgetsMenu</artifactId>
-			<version>4.3.32</version>
+			<version>3.5.8</version>
 			<scope>provided</scope>
 		</dependency>
 
