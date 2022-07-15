@@ -34,11 +34,6 @@
 
 	<repositories>
 		<repository>
-			<id>repo</id>
-			<url>https://repo.glaremasters.me/repository/public/</url>
-		</repository>
-		<!-- Bundabrg's Repo -->
-		<repository>
 			<id>bundabrg-repo</id>
 			<url>https://repo.worldguard.com.au/repository/maven-public</url>
 			<releases>
@@ -64,7 +59,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.16.1-R0.1-SNAPSHOT</version>
+            <version>1.19-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
@@ -117,10 +112,9 @@
 
 		<!-- Used for lilypay -->
 		<dependency>
-			<groupId>lilypad.client.connect</groupId>
-			<artifactId>api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>provided</scope>
+			<groupId>com.github.LilyPad</groupId>
+			<artifactId>Bukkit-Connect</artifactId>
+			<version>8a604e363f</version>
 		</dependency>
 
 		<!-- Adds player points support -->
@@ -133,7 +127,7 @@
 
 		<!-- Adds jobs support -->
 		<dependency>
-			<groupId>com.gamingmesh.jobs</groupId>
+			<groupId>com.github.Zrips</groupId>
 			<artifactId>Jobs</artifactId>
 			<version>4.9.1</version>
 			<scope>provided</scope>
@@ -143,7 +137,7 @@
 		<dependency>
 			<groupId>com.github.Ben12345rocks</groupId>
 			<artifactId>VotingPlugin</artifactId>
-			<version>LATEST</version>
+			<version>6.9.2</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -167,7 +161,7 @@
 		<dependency>
 			<groupId>com.masterderpydoge.tokens</groupId>
 			<artifactId>TokenCore</artifactId>
-			<version>1.4</version>
+			<version>1.2</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -231,10 +225,9 @@
 
 		<!-- Adds silk spawners support -->
 		<dependency>
-			<groupId>de.dustplanet.silkspawners.SilkSpawners</groupId>
+			<groupId>com.github.timbru31.SilkSpawners.dustplanet.silkspawners.SilkSpawners</groupId>
 			<artifactId>SilkSpawners</artifactId>
-			<version>5.0.2</version>
-			<scope>provided</scope>
+			<version>7.3.0</version>
 		</dependency>
 
 		<!-- Adds epic spawners support -->
@@ -249,10 +242,9 @@
 
 		<!-- Used for language utils -->
 		<dependency>
-			<groupId>com.meowj</groupId>
-			<artifactId>LangUtils</artifactId>
-			<version>1.6.1</version>
-			<scope>provided</scope>
+			<groupId>com.github.NyaaCat</groupId>
+			<artifactId>LanguageUtils</artifactId>
+			<version>v2.1.17-mc1.13.1</version>
 		</dependency>
 	</dependencies>
 </project>
